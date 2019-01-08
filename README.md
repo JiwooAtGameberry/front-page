@@ -1,1 +1,0 @@
-# front-page / Hi Jiwoo~
