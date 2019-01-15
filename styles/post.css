@@ -1452,6 +1452,16 @@ section
 9. Sidebar
 *********************************/
 
+
+.sidebar_left
+{
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-bottom: 80px;
+}
+
 .sidebar
 {
 	width: 100%;
@@ -1560,9 +1570,10 @@ section
 }
 .advertising
 {
-	width: 100%;
+	width: 100px;
 	height: 340px;
 	margin-top: 80px;
+	margin-left: 40px
 }
 .advertising_background
 {
