@@ -34,6 +34,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700,800,900');
 
+
 /*********************************
 2. Body and some general stuff
 *********************************/
@@ -51,9 +52,19 @@ body
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #f7f7f7;
-	color: #a5a5a5;
+	background: #41a57a;
+	color: #348964;
 }
+
+.titlecontent
+{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	background: #f7f7f7;
+	color: #f7a3f7;
+}
+
 div
 {
 	display: block;
@@ -117,15 +128,18 @@ p a:hover::after
 }
 ::selection
 {
-	
+
 }
 p::selection
 {
-	
+
 }
 h1{font-size: 48px;}
 h2{font-size: 36px;}
-h3{font-size: 24px;}
+h3{
+	font-size: 24px;
+	color: rgb(138, 138, 138)
+}
 h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
@@ -135,14 +149,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
 h6::selection
 {
-	
+
 }
 .form-control
 {
@@ -383,9 +397,9 @@ section
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(255,255,255,0.5) !important;
-} 
+}
 .header_search_input:-ms-input-placeholder
-{ 
+{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
@@ -568,9 +582,9 @@ section
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: rgba(0,0,0,0.4) !important;
-} 
+}
 .menu .header_search_input:-ms-input-placeholder
-{ 
+{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 400 !important;
@@ -591,7 +605,7 @@ section
 .home
 {
 	width: 100%;
-	height: 360px;
+	height: 700px;
 }
 .home_background
 {
@@ -611,7 +625,7 @@ section
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	max-width: 440px;
+	width: 1600px;
 	text-align: center;
 }
 .post_category
@@ -645,7 +659,8 @@ section
 }
 .post_title
 {
-	font-size: 24px;
+	font-family: arial;
+	font-size: 60px;
 	color: #FFFFFF;
 	font-weight: 600;
 	margin-top: 19px;
@@ -745,7 +760,7 @@ section
 }
 .author_image
 {
-	
+
 }
 .author_image div
 {
@@ -874,7 +889,7 @@ section
 	font-size: 12px;
 	font-style: italic;
 	color: rgba(0,0,0,0.3);
-	text-align: center;
+	text-align: left;
 	margin-top: 8px;
 }
 .post_quote
@@ -1052,10 +1067,10 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-} 
+}
 .comment_input:-ms-input-placeholder,
 .comment_text:-ms-input-placeholder
-{ 
+{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
@@ -1086,10 +1101,10 @@ section
 .comment_text:hover::-moz-placeholder
 {
 	color: rgba(0,0,0,1);
-} 
+}
 .comment_input:hover:-ms-input-placeholder,
 .comment_text:hover:-ms-input-placeholder
-{ 
+{
 	color: rgba(0,0,0,1);
 }
 .comment_input:hover::input-placeholder,
@@ -1219,7 +1234,7 @@ section
 {
 	border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-}  
+}
 .card-title a
 {
 	font-size: 18px;
@@ -1279,7 +1294,7 @@ section
 }
 .post_row
 {
-	
+
 }
 .grid
 {
@@ -1795,9 +1810,9 @@ section
 	font-size: 14px !important;
 	font-weight: 500 !important;
 	color: rgba(255,255,255,0.5) !important;
-} 
+}
 .sub_input:-ms-input-placeholder
-{ 
+{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
